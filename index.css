@@ -1,0 +1,125 @@
+h1{
+
+    font-size: 48px;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+span{
+    color: gray;
+    text-transform: uppercase;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+span:hover{
+    color: rgb(0, 255, 8);
+text-decoration: underline;
+}
+h2{
+ font-size: 48px;
+ cursor: pointer;
+ margin-left: 24px;
+
+}
+h2:hover{
+    color: rgb(142, 13, 13);
+}
+p{
+    color: gray;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.music{
+height: 350px;
+width: 400px;
+transition: 0.5s;
+
+}
+.music:hover{ 
+    opacity: 50%;
+}
+body{
+    
+}
+nav{
+display: flex;
+height: 80px;
+align-items: center;
+}
+.nav_left{
+    display: flex;
+}
+.nav_right{
+    dispaly: flex;
+}
+.logo{
+    width: 244px;
+    height: 24px;
+}
+#logo{
+    width: 100%;
+    height: 130%;
+}
+.nav_left>div{
+    margin-left: 20px;
+}
+.nav_right>div{
+margin-left:10px;
+text-align: center;
+line-height: 60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.nav_left>div:hover{
+color: red;
+cursor: pointer;
+}
+.nav_login{
+    padding: 10px;
+    background-color: orange;
+    height: 20px;
+    
+
+}
+.all_music{
+    display: flex;
+    gap: 20px;
+}
+.audio{
+    height: 250px;
+    width: 300px;
+     overflow: hidden; 
+}
+.music:hover{
+    transform: scale(1.3);
+    opacity: 70%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.audio:hover > .desc_img{
+    background: blue;
+    transform: translateY(-300%);
+    transition: 1s;
+}
+.desc_img{
+    height: 60px;
+    font-size: 30px;
+    user-select: none;
+   
+
+}
+.desc_img>p{
+color:white;
+font-family: fantasy;
+}
+footer{
+    height: 250px;
+    border: 0.1px solid black;
+    border-radius: 20px 20px 0 0;
+    margin-top: 50px;
+    text-align: center;
+}
